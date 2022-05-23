@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 2 - Formularios en HTML</title>
+</head>
+
+<body>
+
+    <h2>Formulario: ejercicio 2</h2>
+
+    <div>
+        <form action="/" method="post">
+
+            <div>
+                <input type="text" id="nombreCliente" name="nombre" required placeholder="Coloca tu nombre"> Nombre
+                <br><br>
+                <input type="text" id="apellidoCliente" name="apellido" required placeholder="Coloca tu apellido"> Apellido
+                <br><br>
+                <input type="number" id="edadCliente" name="edad" required placeholder="Coloca tu edad"> Edad
+                <br><br>
+                <input type="email" id="mailCliente" name="correo electronico" required placeholder="Coloca tu email"> E-Mail
+                <br><br>
+                <textarea type="text" id="fraseFavCliente" name="frase favorita" required placeholder="Coloca aqui tu frase favorita"></textarea>
+            </div>
+            <br>
+            <div>
+                <input type="submit" id="botonEnviar" value="Enviar formulario">
+            </div>
+            <br>
+            <div>
+                <input type="reset" id="botonResetear" value="Resetear formulario">
+            </div>
+
+        </form>
+    </div>
+
+</body>
+
+</html>
