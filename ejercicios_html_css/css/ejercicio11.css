@@ -1,0 +1,12 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.contenedor {
+    margin: 0.5rem;
+}
+
+.row {
+    background-color: #ff9b3b;
+}
