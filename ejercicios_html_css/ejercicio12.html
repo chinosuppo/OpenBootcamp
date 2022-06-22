@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elementos de Interés en Bootstrap</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
+
+</head>
+
+<body>
+    <section>
+        <div class="container bg-light  w-50 m-auto">
+            <div class="m-4 py-4">
+                <h1 class="my-4 fw-bold">Jumbotron</h1>
+                <p class="col-6 fs-5">
+                    Planes sociales: Habló Cristina Kirchner y debate todo el Frente de Todos
+                </p>
+
+                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#ejemploModal">
+                    Abrir noticia
+                </button>
+
+                <div class="modal fade" id="ejemploModal" tabindex="-1" aria-labelledby="ejemploModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="ejemploModalLabel">Página 12</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                Alberto Fernández respaldó a los movimientos sociales. Organizaciones como la UTEP o el Movimiento Evita reivindicaron a la economía popular como una creación de los sectores excluidos. Desde La Cámpora defendieron la postura de la vicepresidenta y agregaron
+                                lo suyo.
+                            </div>
+                            <div class="modal-footer">
+                                <p class="fs-6 fw-semibold px-3">¿Te gusto?</p>
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">No</button>
+                                <button type="button" class="btn btn-primary">Si</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </section>
+
+    <section>
+
+        <div class="container">
+            <form action="" class="">
+                <div class="my-4">
+                    <label for="nombre" class="form-label">Nombre</label>
+                    <input type="text" id="nombre" class="form-control">
+                </div>
+
+                <div class="my-4">
+                    <label for="telefono" class="form-label">Telefono</label>
+                    <input type="number" class="form-control" id="telefono" />
+                </div>
+
+                <div class="my-4">
+                    <label for="mensaje" class="form-label">Mensaje</label>
+                    <textarea class="form-control" id="mensaje" placeholder="Pon tu menjase aqui..."></textarea>
+                </div>
+
+            </form>
+
+        </div>
+
+    </section>
+
+    <section>
+
+        <div class="container">
+            <div class="card col-4 my-3">
+                <div class="card-body">
+                    <h4 class="card-title text-center fs-2 fw-bold py-2">Carlos Suppo</h4>
+                    <p class="card-text fs-6 ">
+                        Mi nombre es Carlos, tengo 28 años, soy de Neuquén Capital - Argentina. Actualmente trabaja como profesor de secundaria. Estudió la Licenciatura en Ciencias Políticas en la Universidad Nacional tres de Febrero. Comencé a tomar varios cursos para convertirme
+                        en Fronted Developer en diferentes plataformas como Platzi y Udemy. <br> También comencé una capacitación en OpenBootcamp. Busco siempre trabajar en equipo, cooperando con todos y apoyando de la mejor manera
+                        posible, con grande satisfacción en enseñar y aprender.
+                    </p>
+                    <a href="mailto:carlos.suppo25@gmail.com" target="_blank" class="card-link ">
+                        <i class="bi bi-mailbox2 d-block"></i>E-mail</a>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+</body>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+
+</html>
